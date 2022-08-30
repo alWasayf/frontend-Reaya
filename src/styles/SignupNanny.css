@@ -1,0 +1,87 @@
+.signinNanny {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   margin-top: 50px;
+  
+}
+.signinNanny__box {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  width: 100%;
+  max-width: 500px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.signinNanny__logo {
+  height: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+.signinNanny__logo > img {
+  height: 100%;
+  object-fit: contain;
+}
+.signinNanny__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.signinNanny__form > button {
+  background: #2382a6;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.signinNanny__input {
+  background: rgba(35, 130, 166, 0.2);
+  border: none;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.signinNanny__more {
+  font-size: 14px;
+}
+.signinNanny__more > p {
+  color: #777;
+}
+
+.signinNanny__more > p > a {
+  font-weight: bold;
+  color: #2382a6;
+}
+
+.signinNanny__inputs {
+  display: flex;
+  gap: 10px;
+}
+.signinNanny__left,
+.signinNanny__right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.backButton {
+  background: #2382a6;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.backButton:hover {
+  background: #2c97be;
+}

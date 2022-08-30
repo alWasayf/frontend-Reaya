@@ -1,0 +1,72 @@
+.signin {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signin__box {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+.signin__logo {
+  height: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+.signin__logo > img {
+  height: 100%;
+  object-fit: contain;
+}
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.signin__form > button {
+  background: #2382a6;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+.signin__input {
+  display: flex;
+  align-items: center;
+}
+.signin__input > input {
+  background: rgba(35, 130, 166, 0.2);
+  border: none;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+  color: #000;
+}
+
+.signin__input > p {
+  width: 150px;
+  font-size: 16px;
+  color: #777;
+}
+.signin__more {
+  font-size: 14px;
+}
+.signin__more > p {
+  color: #777;
+}
+
+.signin__more > p > a {
+  font-weight: bold;
+  color: #2382a6;
+}
+
+.signin__box button {
+  cursor: pointer;
+}
+
+.signin__box button:hover {
+  background: rgba(44, 151, 190, 1);
+}

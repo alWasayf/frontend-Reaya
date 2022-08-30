@@ -1,0 +1,29 @@
+.nanny {
+  height: 100%;
+}
+.nanny__content {
+  min-height: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0;
+  align-items: center;
+  
+}
+.nanny__content > h2 {
+  color: rgba(35, 130, 166, 1);
+  text-transform: capitalize;
+  font-size: 25px;
+}
+.nanny__btnContainer {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: flex-end;
+}
+.nanny__btn {
+  background: rgba(35, 130, 166, 1);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

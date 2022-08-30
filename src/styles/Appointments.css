@@ -1,0 +1,85 @@
+.appoinments {
+  height: 100%;
+}
+.appoinments__content {
+  min-height: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.appointmentCard {
+  display: flex;
+  background: rgba(35, 130, 166, 0.1);
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: default;
+}
+.appointmentCard__info {
+  flex: 1;
+  padding: 0 20px;
+}
+.appointmentCard__info > h1 {
+  color: rgba(35, 130, 166, 1);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.appointmentCard__info > p {
+  color: rgba(35, 130, 166, 1);
+  font-size: 14px;
+}
+.appointmentCard__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.appointmentCard__btn {
+  width: 150px;
+  background: rgba(35, 130, 166, 1);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.appointmentCard__btn:hover {
+  background: rgba(166, 35, 35, 0.8);
+}
+
+.red__hover:hover {
+  background: rgba(166, 35, 35, 0.8) !important;
+}
+.green__hover:hover {
+  background: rgba(106, 148, 106, 0.8) !important;
+}
+
+.yellow__hover:hover {
+  background: rgba(211, 178, 31, 0.89) !important;
+}
+
+.blue__hover:hover {
+  background: rgba(35, 130, 166, 0.8) !important;
+}
+
+.appointmentCard__btn--disabled {
+  background: rgba(166, 35, 35, 0.8);
+  cursor: not-allowed;
+}
+.appointmentCard__status {
+  color: rgba(35, 130, 166, 0.7);
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: rgba(241, 244, 245, 0.7);
+  padding: 5px;
+}

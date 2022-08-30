@@ -1,0 +1,65 @@
+.navbar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.navbar__logo {
+  height: 100%;
+}
+.navbar__logo > img {
+  height: 100%;
+  object-fit: contain;
+}
+.navbar__links {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.navbar__links > a {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  background: #a569b6;
+  padding: 8px 30px;
+  border-radius: 5px;
+  outline: none;
+}
+.navbar__links > a:hover{
+  background-color: #cfb5d6;
+}
+
+.navbarHomeInfo__drop {
+  background: rgb(85, 171, 203);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-self: center;
+  position: absolute;
+  right: 0px;
+  left: 100px;
+  top: 40px;
+}
+.navbarHomeInfo__drop p {
+  padding: 5px 5px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 2;
+}
+.navbarHomeInfo__drop p:hover {
+  background: rgba(44, 151, 190, 1);
+}

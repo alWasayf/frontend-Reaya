@@ -1,0 +1,58 @@
+.confirmedAppointments {
+  height: 100%;
+}
+.confirmedAppointments__content {
+  min-height: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  align-items: center;
+}
+.confirmedAppointments__content > h2 {
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.ConfirmedCard {
+  display: flex;
+  background: rgba(35, 130, 166, 0.1);
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: default;
+  text-decoration: none;
+}
+.ConfirmedCard__info {
+  flex: 1;
+  padding: 0 20px;
+}
+.ConfirmedCard__info > h1 {
+  color: rgba(35, 130, 166, 1);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.ConfirmedCard__info > p {
+  color: rgba(35, 130, 166, 1);
+  font-size: 14px;
+}
+
+.ConfirmedCard__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.ConfirmedCard__accept {
+  width: 150px;
+  background: rgb(134, 212, 154);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  color: #fff;
+}

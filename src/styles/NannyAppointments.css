@@ -1,0 +1,73 @@
+.nannyAppointments {
+  height: 100%;
+}
+.nannyAppointments__content {
+  min-height: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.CustomerCard {
+  display: flex;
+  background: rgba(35, 130, 166, 0.1);
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: default;
+  text-decoration: none;
+}
+.CustomerCard__info {
+  flex: 1;
+  padding: 0 20px;
+}
+.CustomerCard__info > h1 {
+  color: rgba(35, 130, 166, 1);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.CustomerCard__info > p {
+  color: rgba(35, 130, 166, 1);
+  font-size: 14px;
+}
+
+.CustomerCard__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.CustomerCard__accept {
+  width: 150px;
+  background: rgba(32, 158, 204, 0.781);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.CustomerCard__accept:hover {
+  background: rgb(36, 148, 189);
+}
+
+.CustomerCard__reject {
+  width: 150px;
+  background: rgba(194, 73, 73, 0.5);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.CustomerCard__reject:hover {
+  background: rgb(194, 73, 73);
+}

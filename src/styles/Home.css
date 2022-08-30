@@ -1,0 +1,38 @@
+.home {
+  height: 100%;
+}
+.home__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 100px);
+  position: relative;
+}
+.home__content > span {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #2382a6;
+}
+.home__box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #2382a6;
+  height: min(calc(100vh - 120px), 100vh);
+}
+.home__box > h1 {
+  font-size: 40px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Alice&family=Bad+Script&family=Dancing+Script:wght@700&family=Kalam&display=swap');
+.home__box > p {
+  font-size: 50px;
+  font-family: 'Bad Script', cursive;
+  margin-top: 170px;
+  
+}
+.home__content > span{
+  font-size: 19px;
+  font-family: 'Bad Script', cursive;
+}
